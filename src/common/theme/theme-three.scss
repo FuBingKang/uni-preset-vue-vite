@@ -1,0 +1,23 @@
+.theme-three{
+	// 主色调（渐变色为主）
+	--c-primary-color: linear-gradient(315deg, #26D0E8 0%, #70DFA3 100%);
+
+	--c-primary-color-light: linear-gradient(315deg, rgba(38, 208, 232, 0.15) 0%, rgba(112, 223, 163, 0.15) 100%);
+	
+	// 强调（深色为主）
+	--c-emphasize-primary-color: #70dfa3;
+
+	--c-emphasize-primary-color-rgb: 112,223,163;
+	
+	// 禁用颜色
+	--c-disabled-color: linear-gradient(315deg, #aceef7 0%, #b0f7d0 100%);
+	
+	// 成功颜色
+	--c-success-color: #2CD090;
+	
+	// 失败颜色
+	--c-fail-color: #FB4F4C;
+	
+	// 普通状态颜色
+	--c-common-color: #FCA235;
+}
