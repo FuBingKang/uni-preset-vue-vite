@@ -5,7 +5,7 @@ import { constants } from 'crypto';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === "production" ? "/staticcodecard-h5/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/" : "/",
   plugins: [uni()],
   css: {
     preprocessorOptions: {
