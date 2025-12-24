@@ -9,7 +9,7 @@
   </div>
 
   <div class="page-wrapper">
-    <h4>CSS Particles</h4>
+    <h4>毕业快乐</h4>
   </div>
 </template>
 
