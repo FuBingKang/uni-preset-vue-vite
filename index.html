@@ -13,16 +13,20 @@
           '" />'
       );
     </script>
+    <script src="https://esm.sh/css-doodle/css-doodle.min.js?raw"></script>
     <!-- 引入jweixin-1.3.2.js -->
     <script src="%BASE_URL%static/jweixin-1.3.2.js"></script>
     <title></title>
-
-    
   </head>
   <body>
-    <div id="app"><!--app-html--></div>
+    <div id="app">
+      
+    </div>
+    <script>
+      document.addEventListener("click", function (e) {
+        e.target.update && e.target.update();
+      });
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
-
-  
 </html>

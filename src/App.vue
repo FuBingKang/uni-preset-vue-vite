@@ -9,9 +9,16 @@
 @import "@/common/theme/index.scss";
 html,
 body {
-  font-family: Source Han Sans SC, Source Han Sans SC;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 :root {
   --primary: #000;
 }
+
+
 </style>
