@@ -311,7 +311,7 @@
 $total: 300; // total particles
 $orb-size: 100px;
 $particle-size: 2px;
-$time: 9s;
+$time: 8s;
 $base-hue: 0; // change for diff colors (180 is nice)
 
 html,
