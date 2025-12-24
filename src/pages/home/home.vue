@@ -9,11 +9,18 @@
   </div>
 
   <div class="page-wrapper">
-    <h4>郑如珊 毕业快乐</h4>
+    <h4>{{ name }} Hello 呀~~~</h4>
   </div>
 </template>
 
-<script></script>
+<script setup lang="ts">
+import { onLoad } from "@dcloudio/uni-app";
+
+let name = "";
+onLoad((options: any) => {
+  name = options.name || "";
+});
+</script>
 
 <style scoped lang="scss">
 /* Config */
@@ -148,7 +155,7 @@ body {
 }
 
 h4 {
-  font-size:25px;
+  font-size: 25px;
   color: #fff;
   font-family: Monoton;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
